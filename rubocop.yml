@@ -4,6 +4,7 @@ require:
   - rubocop-rails
 
 AllCops:
+  NewCops: enable
   # https://docs.rubocop.org/rubocop/configuration.html#includingexcluding-files
   Exclude:
     - !ruby/regexp /\/node_modules\//

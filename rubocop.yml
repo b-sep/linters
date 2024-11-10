@@ -52,6 +52,8 @@ Style/Documentation:
   Enabled: false
 Style/EmptyMethod:
   EnforcedStyle: expanded
+Style/ModuleFunction:
+  Enabled: false
 Style/NumericLiterals:
   Enabled: false
 Style/PercentLiteralDelimiters:

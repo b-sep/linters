@@ -26,6 +26,9 @@ Metrics/AbcSize:
     - !ruby/regexp /config\/config\.rb$/
     - !ruby/regexp /test\/support\/.*?\.rb$/
   Max: 20
+Metrics/ClassLength:
+  Exclude:
+    - 'test/**/*'
 Metrics/BlockLength:
   Enabled: false
 Metrics/MethodLength:

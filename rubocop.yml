@@ -1,6 +1,6 @@
-require:
-  - rubocop-performance
+plugins:
   - rubocop-minitest
+  - rubocop-performance
   - rubocop-rails
 
 AllCops:
